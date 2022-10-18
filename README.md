@@ -8,4 +8,4 @@ https://react-lab-1.herokuapp.com/
 
 Всі view template знаходяться в app/views/
 
-Виконані сторінки: головна та Abous Us
+Виконані сторінки: головна та About Us
