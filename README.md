@@ -1,24 +1,9 @@
-# README
+# README 
 
-This README would normally document whatever steps are necessary to get the
-application up and running.
+https://react-lab-1.herokuapp.com/
 
-Things you may want to cover:
+Лабораторна виконана на ruby on rails з використанням tailwindcss на haml html 
 
-* Ruby version
+Всі css файли знаходяться в app/assets/stylesheets/
 
-* System dependencies
-
-* Configuration
-
-* Database creation
-
-* Database initialization
-
-* How to run the test suite
-
-* Services (job queues, cache servers, search engines, etc.)
-
-* Deployment instructions
-
-* ...
+Всі view template знаходяться в app/views/
