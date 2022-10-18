@@ -1,0 +1,18 @@
+.testimony.container
+  .flex.flex-col.mt-8{ class: "w-1/4"}
+    .testimony__title What our clients say about us
+    .testimony__subtitle Lorem ipsum dolor sit amet, consectetur adipiscing elit sed.
+  %div{ class: "w-2/3"}
+    .testimony__review
+      "The best agency we’ve worked with so far. They understand our product and are able to add new features with a great focus."
+    .flex.mt-12
+      .testimony__avatar
+        = image_tag "https://images.pexels.com/photos/774909/pexels-photo-774909.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1"
+      .flex.flex-col.ml-4
+        .testimony__name Jenny Wilson
+        .testimony__position Vice President
+      .ml-auto.gap-3.flex
+        %div
+          = inline_svg "icons/left-chev.svg"
+        %div
+          = inline_svg "icons/right-chev.svg"

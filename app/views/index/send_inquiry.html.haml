@@ -1,0 +1,21 @@
+.send.container
+  .flex
+    .send__image-text
+      = image_tag "writing-photo.jpg"
+      .send__title
+        Building stellar websites for early startups
+      .send__subtitle
+        Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua ut enim.
+    .send__form
+      .send__form-title
+        Send inquiry
+      .send__form-description
+        Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore.
+      .send__input-wrapper
+        = text_field "your_name", "", placeholder: "Your Name"
+        = text_field "Email", "", placeholder: "Email"
+        = text_field "Paste your Figma design URL", "", placeholder: "Paste your Figma design URL"
+      .button.button--gold.button--max.w-full.text-center.mt-10 Send an Inquiry
+      .send__get-in-touch
+        Get in touch with us
+        = inline_svg "icons/right-arrow.svg"

@@ -1,0 +1,8 @@
+- first_image = "arabic-businessman.png"
+- second_image = "woman-in-white.png"
+- third_image = "apple-monitors.png"
+
+.our-blog.container
+  .our-blog__title Our blog
+  .our-blog__wrapper
+    = render partial: "blogs/blog", collection: [first_image, second_image, third_image], as: :image

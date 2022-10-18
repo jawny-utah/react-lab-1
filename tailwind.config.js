@@ -1,0 +1,16 @@
+module.exports = {
+  content: [
+    './app/views/**/*.html.haml',
+    './app/helpers/**/*.rb',
+    './app/assets/stylesheets/**/*.css',
+    './app/javascript/**/*.js'
+  ],
+  theme: {
+    extend: {
+      fontFamily: {
+        poppins: 'PoppinsRegular',
+        poppinssemibold: 'PoppinsSemibold',
+      },
+    }
+  }
+}
