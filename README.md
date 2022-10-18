@@ -7,3 +7,5 @@ https://react-lab-1.herokuapp.com/
 Всі css файли знаходяться в app/assets/stylesheets/
 
 Всі view template знаходяться в app/views/
+
+Виконані сторінки: головна та Abous Us
